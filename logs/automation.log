@@ -1,5 +1,15 @@
-2026-11-17 11:03:30 [main] INFO  LoggerUtility - Running Test 1.....
-2026-11-17 11:03:33 [main] INFO  LoggerUtility - Home Page Opened
-2026-11-17 11:03:33 [main] INFO  LoggerUtility - First Test Finished.
-2026-11-17 11:03:33 [main] INFO  LoggerUtility - Running 2 test case....
-2026-11-17 11:03:39 [main] INFO  LoggerUtility - Test finished.
+2026-11-17 12:23:41 [main] INFO  LoggerUtility - Running Test 1.....
+2026-11-17 12:23:43 [main] INFO  LoggerUtility - Home Page Opened
+2026-11-17 12:23:43 [main] INFO  LoggerUtility - First Test Finished.
+2026-11-17 12:23:43 [main] INFO  LoggerUtility - Running 2 test case....
+2026-11-17 12:23:45 [main] INFO  LoggerUtility - First Name: -----> Arshad
+2026-11-17 12:23:45 [main] INFO  LoggerUtility - Last Name: -----> Jamal
+2026-11-17 12:23:45 [main] INFO  LoggerUtility - Address: -----> Rasara
+2026-11-17 12:23:45 [main] INFO  LoggerUtility - City: -----> Ballia
+2026-11-17 12:23:45 [main] INFO  LoggerUtility - State: -----> Uttar Pradesh
+2026-11-17 12:23:45 [main] INFO  LoggerUtility - Zip Code: -----> 221712.0
+2026-11-17 12:23:45 [main] INFO  LoggerUtility - Phone #: -----> 9.782673156E9
+2026-11-17 12:23:45 [main] INFO  LoggerUtility - SSN: -----> 1254567.0
+2026-11-17 12:23:45 [main] INFO  LoggerUtility - Password: -----> Arshad$2025
+2026-11-17 12:23:46 [main] INFO  LoggerUtility - Confirm: -----> Arshad$2025
+2026-11-17 12:23:48 [main] INFO  LoggerUtility - Test finished.

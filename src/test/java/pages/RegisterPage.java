@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import base.BaseTest;
+import utils.LoggerUtility;
 import utils.ReportUtils;
 
 public class RegisterPage extends BaseTest{
@@ -27,6 +28,8 @@ public class RegisterPage extends BaseTest{
 	
 	@FindBy (xpath = "//form[@id='customerForm']//input[@value='Register']")
 	WebElement registerBtnElement;
+	
+	 private static final org.apache.logging.log4j.Logger log =LoggerUtility.getLogger();
 	
 	public RegisterPage() {
 		PageFactory.initElements(driver, this);
@@ -51,6 +54,7 @@ public class RegisterPage extends BaseTest{
 			}
 			
 			rowsElements.get(i).sendKeys(rowData.get(i));
+			log.info(rowsLabelElements.get(i).getText()+" -----> "+rowData.get(i));
 			//ReportUtils.logInfo("Entering "+rowLableNameString+" as "+rowData.get(i));
 		}
 	}
